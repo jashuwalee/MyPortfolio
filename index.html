@@ -10,10 +10,10 @@
 </head>
     <body>
 
-        <section class="s1">
+        <section class="s1" style="background-image: url('/Images/bananaleaf.jpg');"> 
             <div class="main-container">
                 <div class="greeting-wrapper">
-                    <h1>Heading here</h1>
+                    <h1>~(Heading here)~</h1>
                 </div>
 
                 <div class="intro-wrapper">
@@ -102,7 +102,7 @@
                         <img id="social_img" src="Images/banana.jpg">
                         <h3>Find me on Stack Overflow & Github</h3>
     
-                        <a target="_blank" href="#">Stack Overflow</a>
+                        <a target="_blank" href="https://stackexchange.com/users/19608125/bigugy">Stack Overflow</a>
                         <a target="_blank" href="https://github.com/jashuwalee">Github: @Jashuwalee</a>
                     </div>
                 </div>
@@ -111,13 +111,68 @@
 
         <section class="s1">
             <div class="main-container">
-                Portfolio
+                <h3 style="text-align: center;"> Some of my past projects</h3>
+                
+                <div class="post-wrapper">
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="/Images/Wildfire.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Wildfire Tracker</h6>
+                                <p class="post-intro">A wildfire tracker built using Nasa Open API.</p>
+                                <a target="_blank" href="https://github.com/jashuwalee/Wildfire-Tracker">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="/Images/MSIgitPIC.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Associate Portal</h6>
+                                <p class="post-intro">This is a portal meant for employee use to purchase buisness cards and/or work shirts.</p>
+                                <a target="_blank" href="https://github.com/jashuwalee/AssociatePortal">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="/Images/banana.jpg">
+                            <div class="post-preview">
+                                <h6 class="post-title">Post Title</h6>
+                                <p class="post-intro">This is a sentence. More Text.</p>
+                                <a target="_blank" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
         <section class="s2">
             <div class="main-container">
-                Contact
+                <h3 style="text-align: center;"> Get In Touch</h3>
+
+                <form id="contact-form">
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name">
+
+                    <label>Subject</label>
+                    <input class="input-field" type="text" name="subject">
+
+                    <label>Email</label>
+                    <input class="input-field" type="text" name="email">
+
+                    <label>Message</label>
+                    <textarea class="input-field" type="text" name="message"></textarea>
+
+
+                    <input id="submit-btn" type="submit" value="Send">
+                </form>
+
             </div>
         </section>
         
