@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap" rel="stylesheet">    
+    <link id="theme-style" rel="stylesheet" href="">
+
+
 </head>
     <body>
 
@@ -34,10 +37,10 @@
                         <h5 style="text-align: center; line-height: 0;">Personalized Theme</h5>
 
                         <div id="theme-options-wrapper">
-                            <div id="light-mode" class="theme-dot"></div>
-                            <div id="red-mode" class="theme-dot"></div>
-                            <div id="green-mode" class="theme-dot"></div>
-                            <div id="purple-mode" class="theme-dot"></div>
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="pink" id="pink-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                         </div>
 
                         <p id="settings-note">*Theme settings will be save for<br>your next visit</p>
@@ -176,6 +179,6 @@
             </div>
         </section>
         
-        <script src="" async defer></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
